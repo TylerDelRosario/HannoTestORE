@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "Hanno Prototype",
   "main": "hannoPriceCalc.js",
-  
   "scripts": {
-    "test": "hanno"
+    "fetch": "node hannoFetch.js",
+    "test": "jest"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TylerDelRosario/HannoTestORE.git"
@@ -17,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/TylerDelRosario/HannoTestORE/issues"
   },
-  "homepage": "https://github.com/TylerDelRosario/HannoTestORE#readme"
+  "homepage": "https://github.com/TylerDelRosario/HannoTestORE#readme",
+  "devDependencies": {
+    "jest": "^29.6.1"
+  }
 }

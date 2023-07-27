@@ -2,10 +2,23 @@
 
 Prototype for Hanno.
 
-To start, do ``node hannoFetch.js`` 
+
+## Prerequisites
+
+* nodejs v18.16.1
+* npm 9.6.7
+
+```javascript
+npm i
+npm run fetch
+```
+
 This can take awhile as the file fetches all of the ore data we need from the eve api.
 
 After you get the message ``Write to JSON completed! :D``
+
+## General app
+
 do ``node hannoPriceCalc.js``
 
 7/26/2023
