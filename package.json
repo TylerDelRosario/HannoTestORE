@@ -1,0 +1,21 @@
+{
+  "name": "hannotestore",
+  "version": "1.0.0",
+  "description": "Hanno Prototype",
+  "main": "hannoPriceCalc.js",
+  
+  "scripts": {
+    "test": "hanno"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylerDelRosario/HannoTestORE.git"
+  },
+  "author": "Tyler Del Rosario",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TylerDelRosario/HannoTestORE/issues"
+  },
+  "homepage": "https://github.com/TylerDelRosario/HannoTestORE#readme"
+}
