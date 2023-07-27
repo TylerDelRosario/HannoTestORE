@@ -5,7 +5,7 @@ function hannoParseModule(oreJson) {
 
 //console.log(oreData);
 
-        //The indices/indexes of these arrays correspond in order to the static array staticOreData.
+        //The indices/indexes of these arrays correspond in order to the static ratio array staticOreData.
         const mineralArr = [
             {min: 0}, //tri 0
             {min: 0}, //pye 1
