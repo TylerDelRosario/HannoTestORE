@@ -23,14 +23,17 @@ class Ore {
         console.log(`${this.name}: pulling data.`);
         return fetch(Ore.fetchURL + this.typeID).then(r => r.json()) // use of Ore static member
             .then(oreData => {
-                this.data = oreData;
-                console.log(`${this.name}: ${this.data.length} data updates.`);
+                this.data = oreData[oreData.length - 1];//grabs most recent market average.
+                
+                console.log(`${this.name}: ${this.data} data updates.`);
+
+                return this;
             }).catch(error => {
                 console.error(this.name, error);
-            });
+        });
     }
 
-    getData = () => this.data;
+    getData = () => this;
 }
 class HannoFetch {
 
